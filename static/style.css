@@ -1,0 +1,35 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page-title {
+    width: 25%;
+    margin: 15% auto auto auto;
+    padding: 1em 0 1em 0;
+    text-align: center;
+    background-color: #ff0000;
+    color: #fff;
+}
+
+.recipe-links-container {
+    width: 25%;
+    margin: auto;
+    background-color: #00ff00;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+    /* color: #00ffff; */
+}
+
+.recipe-link {
+    width: 100%;
+    text-align: center;
+    padding: 0.75em 0 0.75em 0;
+    color: #0f00ff;
+}
