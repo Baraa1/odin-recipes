@@ -1,20 +1,34 @@
+html {
+    background-color: #ffc;
+}
+
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.page-title {
-    width: 25%;
-    margin: 15% auto auto auto;
-    padding: 1em 0 1em 0;
+.page-title,
+.recipe-page-title {
     text-align: center;
     background-color: #ff0000;
     color: #fff;
 }
 
+.recipe-links-container,
+.recipe-page-subtitle {
+    background-color: #00ff00;
+}
+
+/* Index styling *******************************************************************************************************************************************************************/
+
+.page-title {
+    width: 25%;
+    margin: 15% auto auto auto;
+    padding: 1em 0 1em 0;
+}
+
 .recipe-links-container {
     width: 25%;
     margin: auto;
-    background-color: #00ff00;
     list-style: none;
     padding: 0;
 }
@@ -32,4 +46,36 @@ a:visited {
     text-align: center;
     padding: 0.75em 0 0.75em 0;
     color: #0f00ff;
+}
+
+/* Recipe styling *******************************************************************************************************************************************************************/
+
+img {
+    /* display block because it is inline-block by default which does not work with auto margins */
+    display: block;
+    width: 25%;
+    height: auto;
+    margin: 1em auto 1em auto;
+}
+
+.recipe-page-title,
+.recipe-page-subtitle,
+.recipe-page-list,
+.recipe-page-text {
+    width: 50%;
+    margin: auto;
+}
+
+.recipe-page-title,
+.recipe-page-subtitle {
+    padding: 0.5em 0 0.5em 0;
+}
+
+.recipe-page-subtitle {
+    text-align: center;
+}
+
+.recipe-page-text,
+.recipe-page-list li {
+    padding: 1em 0 1em 1.5em;
 }
